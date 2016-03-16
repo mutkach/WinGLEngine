@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Deferred">
+      <UniqueIdentifier>{a71b7963-c06b-4ce7-9568-55a001294761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Post Processing">
+      <UniqueIdentifier>{383934ce-fe44-45e7-90c7-1729e9e82b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rendering">
+      <UniqueIdentifier>{5f61c0a1-a86f-4848-b1fc-41927d0a226d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{61f6e5fc-d189-400e-ba7a-77d1507ff216}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="framebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framebuffer.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="octree.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="animodel.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="textfile.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pento.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="physproperty.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\defshading_null.vert">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_combine.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_combine.vert">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_dirlight.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_dirlight.vert">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_geom.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_geom.vert">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_light.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_light.vert">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_null.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\post_blurH.frag">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_blurH.vert">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_blurW.frag">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_blurW.vert">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_downsample.frag">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_downsample.vert">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_fxaa.frag">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_fxaa.vert">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_ssao.vert">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_ssao.frag">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\defshading_light.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\post_text.frag">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\post_text.vert">
+      <Filter>Resource Files\Post Processing</Filter>
+    </None>
+    <None Include="shaders\defshading_skybox.vert">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+    <None Include="shaders\defshading_skybox.frag">
+      <Filter>Resource Files\Deferred</Filter>
+    </None>
+  </ItemGroup>
+</Project>

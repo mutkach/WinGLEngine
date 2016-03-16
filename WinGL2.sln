@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinGL2", "WinGL2\WinGL2.vcxproj", "{2FA82CF4-B0D3-409C-B4EF-2FBE9DB23EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Custom|Win32 = Custom|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA82CF4-B0D3-409C-B4EF-2FBE9DB23EEB}.Custom|Win32.ActiveCfg = Custom|Win32
+		{2FA82CF4-B0D3-409C-B4EF-2FBE9DB23EEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FA82CF4-B0D3-409C-B4EF-2FBE9DB23EEB}.Debug|Win32.Build.0 = Debug|Win32
+		{2FA82CF4-B0D3-409C-B4EF-2FBE9DB23EEB}.Release|Win32.ActiveCfg = Release|Win32
+		{2FA82CF4-B0D3-409C-B4EF-2FBE9DB23EEB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
